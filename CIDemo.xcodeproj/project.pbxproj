@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E99366613B8D4E400EAC0E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366513B8D4E400EAC0E3 /* UIKit.framework */; };
+		2E99366813B8D4E400EAC0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366713B8D4E400EAC0E3 /* Foundation.framework */; };
+		2E99366A13B8D4E400EAC0E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */; };
+		2E99367013B8D4E400EAC0E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E99366E13B8D4E400EAC0E3 /* InfoPlist.strings */; };
+		2E99367213B8D4E400EAC0E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99367113B8D4E400EAC0E3 /* main.m */; };
+		2E99367613B8D4E400EAC0E3 /* CIDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99367513B8D4E400EAC0E3 /* CIDemoAppDelegate.m */; };
+		2E99367813B8D4E400EAC0E3 /* CIDemoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */; };
+		2E99367A13B8D4E400EAC0E3 /* CIDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99367913B8D4E400EAC0E3 /* CIDemoViewController.m */; };
+		2E99367D13B8D4E400EAC0E3 /* CIDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E99367B13B8D4E400EAC0E3 /* CIDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E99366113B8D4E400EAC0E3 /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99366513B8D4E400EAC0E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E99366713B8D4E400EAC0E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E99366D13B8D4E400EAC0E3 /* CIDemo-Info.plist */ = {isa = PBXFileReference; path = "CIDemo-Info.plist"; sourceTree = "<group>"; };
+		2E99366F13B8D4E400EAC0E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E99367113B8D4E400EAC0E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E99367313B8D4E400EAC0E3 /* CIDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CIDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2E99367413B8D4E400EAC0E3 /* CIDemoAppDelegate.h */ = {isa = PBXFileReference; path = CIDemoAppDelegate.h; sourceTree = "<group>"; };
+		2E99367513B8D4E400EAC0E3 /* CIDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDemoAppDelegate.m; sourceTree = "<group>"; };
+		2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIDemoViewController.h; sourceTree = "<group>"; };
+		2E99367913B8D4E400EAC0E3 /* CIDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDemoViewController.m; sourceTree = "<group>"; };
+		2E99367C13B8D4E400EAC0E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CIDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E99365E13B8D4E400EAC0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99366613B8D4E400EAC0E3 /* UIKit.framework in Frameworks */,
+				2E99366813B8D4E400EAC0E3 /* Foundation.framework in Frameworks */,
+				2E99366A13B8D4E400EAC0E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E99365613B8D4E400EAC0E3 = {
+			isa = PBXGroup;
+			children = (
+				2E99366B13B8D4E400EAC0E3 /* CIDemo */,
+				2E99366413B8D4E400EAC0E3 /* Frameworks */,
+				2E99366213B8D4E400EAC0E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E99366213B8D4E400EAC0E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E99366113B8D4E400EAC0E3 /* CIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E99366413B8D4E400EAC0E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E99366513B8D4E400EAC0E3 /* UIKit.framework */,
+				2E99366713B8D4E400EAC0E3 /* Foundation.framework */,
+				2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E99366B13B8D4E400EAC0E3 /* CIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E99367413B8D4E400EAC0E3 /* CIDemoAppDelegate.h */,
+				2E99367513B8D4E400EAC0E3 /* CIDemoAppDelegate.m */,
+				2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */,
+				2E99367913B8D4E400EAC0E3 /* CIDemoViewController.m */,
+				2E99367B13B8D4E400EAC0E3 /* CIDemoViewController.xib */,
+				2E99366C13B8D4E400EAC0E3 /* Supporting Files */,
+			);
+			path = CIDemo;
+			sourceTree = "<group>";
+		};
+		2E99366C13B8D4E400EAC0E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E99366D13B8D4E400EAC0E3 /* CIDemo-Info.plist */,
+				2E99366E13B8D4E400EAC0E3 /* InfoPlist.strings */,
+				2E99367113B8D4E400EAC0E3 /* main.m */,
+				2E99367313B8D4E400EAC0E3 /* CIDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E99366013B8D4E400EAC0E3 /* CIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E99368013B8D4E400EAC0E3 /* Build configuration list for PBXNativeTarget "CIDemo" */;
+			buildPhases = (
+				2E99365D13B8D4E400EAC0E3 /* Sources */,
+				2E99365E13B8D4E400EAC0E3 /* Frameworks */,
+				2E99365F13B8D4E400EAC0E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CIDemo;
+			productName = CIDemo;
+			productReference = 2E99366113B8D4E400EAC0E3 /* CIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E99365813B8D4E400EAC0E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = rmh;
+			};
+			buildConfigurationList = 2E99365B13B8D4E400EAC0E3 /* Build configuration list for PBXProject "CIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E99365613B8D4E400EAC0E3;
+			productRefGroup = 2E99366213B8D4E400EAC0E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E99366013B8D4E400EAC0E3 /* CIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E99365F13B8D4E400EAC0E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99367013B8D4E400EAC0E3 /* InfoPlist.strings in Resources */,
+				2E99367813B8D4E400EAC0E3 /* CIDemoViewController.h in Resources */,
+				2E99367D13B8D4E400EAC0E3 /* CIDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E99365D13B8D4E400EAC0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99367213B8D4E400EAC0E3 /* main.m in Sources */,
+				2E99367613B8D4E400EAC0E3 /* CIDemoAppDelegate.m in Sources */,
+				2E99367A13B8D4E400EAC0E3 /* CIDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E99366E13B8D4E400EAC0E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E99366F13B8D4E400EAC0E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E99367B13B8D4E400EAC0E3 /* CIDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E99367C13B8D4E400EAC0E3 /* en */,
+			);
+			name = CIDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E99367E13B8D4E400EAC0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2E99367F13B8D4E400EAC0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E99368113B8D4E400EAC0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIDemo/CIDemo-Prefix.pch";
+				INFOPLIST_FILE = "CIDemo/CIDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E99368213B8D4E400EAC0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIDemo/CIDemo-Prefix.pch";
+				INFOPLIST_FILE = "CIDemo/CIDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E99365B13B8D4E400EAC0E3 /* Build configuration list for PBXProject "CIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99367E13B8D4E400EAC0E3 /* Debug */,
+				2E99367F13B8D4E400EAC0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E99368013B8D4E400EAC0E3 /* Build configuration list for PBXNativeTarget "CIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99368113B8D4E400EAC0E3 /* Debug */,
+				2E99368213B8D4E400EAC0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E99365813B8D4E400EAC0E3 /* Project object */;
+}
