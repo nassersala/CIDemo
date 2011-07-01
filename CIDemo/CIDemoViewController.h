@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CIDemoViewController : UIViewController
 
+@interface CIDemoViewController : UIViewController {
+    UIImageView *faceView;
+    UISlider *slider;
+}
+
+-(CIImage *)faceboxImageForFace:(CIFaceFeature *)face;
+- (IBAction)reDraw:(id)sender;
+@property (nonatomic, strong) IBOutlet UIImageView *faceView;
+
+- (IBAction)filterIt:(id)sender;
+- (IBAction)changeHue:(id)sender;
+@property (nonatomic, strong) IBOutlet UISlider *slider;
 @end
