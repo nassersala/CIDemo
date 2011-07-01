@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2F2C8E13BBB0F500817B1E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2F2C8D13BBB0F500817B1E /* ImageIO.framework */; };
+		2E382D2E13BDFE8A00732907 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E382D2D13BDFE8A00732907 /* face.jpg */; };
 		2E99366613B8D4E400EAC0E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366513B8D4E400EAC0E3 /* UIKit.framework */; };
 		2E99366813B8D4E400EAC0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366713B8D4E400EAC0E3 /* Foundation.framework */; };
 		2E99366A13B8D4E400EAC0E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */; };
@@ -16,22 +18,28 @@
 		2E99367813B8D4E400EAC0E3 /* CIDemoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */; };
 		2E99367A13B8D4E400EAC0E3 /* CIDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99367913B8D4E400EAC0E3 /* CIDemoViewController.m */; };
 		2E99367D13B8D4E400EAC0E3 /* CIDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E99367B13B8D4E400EAC0E3 /* CIDemoViewController.xib */; };
+		2E99368F13B8D8E700EAC0E3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99368E13B8D8E700EAC0E3 /* CoreImage.framework */; };
+		2E99369113B8D91200EAC0E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99369013B8D91200EAC0E3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E2F2C8D13BBB0F500817B1E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2E382D2D13BDFE8A00732907 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
 		2E99366113B8D4E400EAC0E3 /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E99366513B8D4E400EAC0E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2E99366713B8D4E400EAC0E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2E99366D13B8D4E400EAC0E3 /* CIDemo-Info.plist */ = {isa = PBXFileReference; path = "CIDemo-Info.plist"; sourceTree = "<group>"; };
+		2E99366D13B8D4E400EAC0E3 /* CIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CIDemo-Info.plist"; sourceTree = "<group>"; };
 		2E99366F13B8D4E400EAC0E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E99367113B8D4E400EAC0E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E99367313B8D4E400EAC0E3 /* CIDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CIDemo-Prefix.pch"; sourceTree = "<group>"; };
-		2E99367413B8D4E400EAC0E3 /* CIDemoAppDelegate.h */ = {isa = PBXFileReference; path = CIDemoAppDelegate.h; sourceTree = "<group>"; };
+		2E99367313B8D4E400EAC0E3 /* CIDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CIDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2E99367413B8D4E400EAC0E3 /* CIDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIDemoAppDelegate.h; sourceTree = "<group>"; };
 		2E99367513B8D4E400EAC0E3 /* CIDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDemoAppDelegate.m; sourceTree = "<group>"; };
 		2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIDemoViewController.h; sourceTree = "<group>"; };
 		2E99367913B8D4E400EAC0E3 /* CIDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDemoViewController.m; sourceTree = "<group>"; };
 		2E99367C13B8D4E400EAC0E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CIDemoViewController.xib; sourceTree = "<group>"; };
+		2E99368E13B8D8E700EAC0E3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2E99369013B8D91200EAC0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2F2C8E13BBB0F500817B1E /* ImageIO.framework in Frameworks */,
+				2E99369113B8D91200EAC0E3 /* QuartzCore.framework in Frameworks */,
+				2E99368F13B8D8E700EAC0E3 /* CoreImage.framework in Frameworks */,
 				2E99366613B8D4E400EAC0E3 /* UIKit.framework in Frameworks */,
 				2E99366813B8D4E400EAC0E3 /* Foundation.framework in Frameworks */,
 				2E99366A13B8D4E400EAC0E3 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +62,8 @@
 		2E99365613B8D4E400EAC0E3 = {
 			isa = PBXGroup;
 			children = (
+				2E2F2C8D13BBB0F500817B1E /* ImageIO.framework */,
+				2E99369013B8D91200EAC0E3 /* QuartzCore.framework */,
 				2E99366B13B8D4E400EAC0E3 /* CIDemo */,
 				2E99366413B8D4E400EAC0E3 /* Frameworks */,
 				2E99366213B8D4E400EAC0E3 /* Products */,
@@ -68,6 +81,7 @@
 		2E99366413B8D4E400EAC0E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E99368E13B8D8E700EAC0E3 /* CoreImage.framework */,
 				2E99366513B8D4E400EAC0E3 /* UIKit.framework */,
 				2E99366713B8D4E400EAC0E3 /* Foundation.framework */,
 				2E99366913B8D4E400EAC0E3 /* CoreGraphics.framework */,
@@ -78,6 +92,7 @@
 		2E99366B13B8D4E400EAC0E3 /* CIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E382D2D13BDFE8A00732907 /* face.jpg */,
 				2E99367413B8D4E400EAC0E3 /* CIDemoAppDelegate.h */,
 				2E99367513B8D4E400EAC0E3 /* CIDemoAppDelegate.m */,
 				2E99367713B8D4E400EAC0E3 /* CIDemoViewController.h */,
@@ -152,6 +167,7 @@
 				2E99367013B8D4E400EAC0E3 /* InfoPlist.strings in Resources */,
 				2E99367813B8D4E400EAC0E3 /* CIDemoViewController.h in Resources */,
 				2E99367D13B8D4E400EAC0E3 /* CIDemoViewController.xib in Resources */,
+				2E382D2E13BDFE8A00732907 /* face.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +294,7 @@
 				2E99368213B8D4E400EAC0E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
