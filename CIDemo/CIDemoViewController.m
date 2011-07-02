@@ -80,10 +80,7 @@
 
 }
 
-- (IBAction)filterIt:(id)sender {
-     
-    UIImage *image = self.faceView.image;
-    
+- (void)hueIt:(UIImage *)image {
     CIImage *cImage = [CIImage imageWithCGImage:[image CGImage]];
     
     CIFilter *hueAdjust = [CIFilter filterWithName:@"CIHueAdjust"];    //create the filter and set it up
@@ -91,11 +88,18 @@
     [hueAdjust setValue: cImage forKey: @"inputImage"];    
     [hueAdjust setValue: [NSNumber numberWithFloat:self.slider.value ]     //2.094
                  forKey: @"inputAngle"];
-     CIImage *result = [hueAdjust valueForKey: @"outputImage"];
+    CIImage *result = [hueAdjust valueForKey: @"outputImage"];
     
     
     CIContext *context = [CIContext contextWithOptions:nil];
     self.faceView.image = [UIImage imageWithCGImage:[context createCGImage:result fromRect:CGRectMake(0, 0, image.size.width, image.size.height)]];
+}
+
+- (IBAction)filterIt:(id)sender {
+    UIImage *image = self.faceView.image;
+    [self performSelectorInBackground:@selector(hueIt:) withObject:image];
+    
+    
 }
 
 - (IBAction)changeHue:(id)sender {
