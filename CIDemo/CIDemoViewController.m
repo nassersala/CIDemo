@@ -75,7 +75,8 @@
 
 - (IBAction)reDraw:(id)sender {
     UIImage *image = self.faceView.image;
-    [self detectFacesAndDrawFaceBoxes:image];
+    [self performSelectorInBackground:@selector(detectFacesAndDrawFaceBoxes:) withObject:image];
+
 
 }
 
